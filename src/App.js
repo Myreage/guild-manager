@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Redirect
 } from "react-router-dom";
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
             <h1>GESTION</h1>
           </Route>
         </Switch>
+        <Redirect from="/" to="/guild" />
       </div>
       </Router>
     </div>
