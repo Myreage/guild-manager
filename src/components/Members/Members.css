@@ -1,7 +1,7 @@
-#Members{
-    margin-top: 5%;
+#Members{    
     width: 96%;
     align-self:center; 
+    margin-top: 15%;
 }
 
 table{
@@ -44,4 +44,45 @@ hr{
     margin-block-start: 0;
     margin-block-end: 0;
     border-color: yellow;
+}
+
+.warlock{
+    color:#9482C9;
+}
+
+.warrior{
+    color:#C79C6E;
+}
+.pal{
+    color:#F58CBA;
+}
+.hunt{
+    color:#ABD473;
+}
+.rogue{
+    color:#FFF569;
+}
+.priest{
+    color:#FFFFFF;
+}
+.dk{
+    color:#C41F3B;
+}
+.sham{
+    color:#0070DE;
+}
+.mage{
+    color:#69CCF0;
+}
+.warlock{
+    color:violet;
+}
+.monk{
+    color: #00FF96;
+}
+.druid{
+    color:#FF7D0A;
+}
+.dh{
+    color:#A330C9	;
 }

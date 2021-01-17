@@ -1,10 +1,12 @@
 #Header{
-  width: 100%;
+  width: 85%;
   display: flex;
   align-self: flex-start;
   align-items: flex-end;
   justify-content: start;
-  margin-top: 3%;
+  position: fixed;
+  background-color:#26262a;
+  padding-bottom: 2%;
 
 }
 
