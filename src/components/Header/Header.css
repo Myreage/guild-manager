@@ -1,0 +1,65 @@
+#Header{
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-end;
+  justify-content: start;
+  margin-top: 3%;
+
+}
+
+#ProgressNM {
+  color: white;
+  display: inline-block;
+  margin-left: 5%;
+}
+#ProgressNM h3{
+  display: inline;
+  color: white;
+  font-weight: 500;
+}
+
+#ProgressHM {
+  display: inline-block;
+  color: white;
+  margin-left: 5%;
+}
+
+#ProgressHM h3{
+  display: inline;
+  color: rgb(255, 196, 0);
+  font-weight: 500;
+}
+
+#ProgressMM {
+  display: inline-block;
+  color: white;
+  margin-left: 5%;
+}
+#ProgressMM h3{
+  display: inline;
+  color: rgba(28, 28, 250, 0.76);
+  font-weight: 500;
+}
+
+#GuildName{
+  color:rgb(255, 196, 0);  
+  font-size: 7vh;
+  margin-left: 2%;
+  display: block;
+
+}
+
+#Progress{
+  background-color:#171513;
+  width: 20%;
+  margin-left: 3%;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.295);
+  font-size: 3vh;
+}
+
+#NextRaid{
+  color: white;
+  margin-left: 30%;
+  font-size: 3vh;
+}

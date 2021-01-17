@@ -1,0 +1,84 @@
+#Navbar {
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    right: 0;
+    background-color:#171513; 
+
+}
+
+#Pseudo {
+    color: white;
+    margin: 0;
+    
+}
+#RioScore{
+    margin: 0;
+}
+#Player {
+    line-height:5vh;
+    margin-top: 5vh;    
+}
+
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0; 
+    margin-block-start: 10em;
+}
+
+li {       
+    margin-top: 0.5vh;
+}
+
+#guild {
+    background: url("./static/carte-azeroth-wow.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#mythic{
+    background: url("./static/mists-of-tirna-scithe-social-h.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#raid{
+    background: url("./static/Castle-Nathria-Raid.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+li a {
+    opacity: 0.5;
+    display: block;
+    color: white;
+    padding: 3vh;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+li a.active {
+    opacity: 1;
+}
+
+li a:hover:not(.active) {
+    opacity: 1;
+}
+
+#settings{
+    margin-top: 10vh;
+    color: white; 
+    width: 50%;
+    display: inline-block;
+    
+}
+
+#settings p{
+    margin-top: 0.5vh;
+}
+
+#settings:hover{
+    opacity: 0.5;
+}

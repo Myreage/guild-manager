@@ -1,0 +1,51 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  background-color: #26262a;
+  height: 100%;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.yellow{
+  color: yellow;
+}
+
+p {
+  font-size: 3vh;
+  color: white;
+}
+
+h1{
+  font-size: 7vh;
+}
+
+h2{
+  font-size: 5vh;
+}
+
+h3{
+  font-size: 4vh;
+}
+
