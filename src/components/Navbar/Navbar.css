@@ -72,6 +72,7 @@ li a:hover:not(.active) {
     color: white; 
     width: 50%;
     display: inline-block;
+    text-decoration: none;
     
 }
 
