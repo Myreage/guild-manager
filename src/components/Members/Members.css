@@ -16,6 +16,7 @@ table{
 thead{
     text-align: center;
     color: white;
+
 }
 
 th{
@@ -26,6 +27,7 @@ th{
 tbody{
     text-align: left;
     color: rgba(255, 255, 255, 0.76);
+    font-family: "Montserrat";
 }
 th, td {
     padding:1vh;
@@ -37,7 +39,7 @@ td{
 }
 
 tr:nth-child(even) {
-    background-color:rgba(181, 181, 187, 0.13);
+    background-color:#1c1c1f;
 }
 
 hr{
