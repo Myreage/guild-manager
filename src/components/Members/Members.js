@@ -1,6 +1,5 @@
 import './Members.css';
 import { useEffect, useState } from 'react';
-import config from "../../config";
 
 export default function Members() {
 
