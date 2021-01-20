@@ -1,6 +1,5 @@
 import './Members.css';
 import { useEffect, useState } from 'react';
-import config from "../../config";
 
 export default function Members() {
 
@@ -9,8 +8,8 @@ export default function Members() {
     const [roster, setRoster] = useState([]);
 
     async function getAccessToken() {        
-        const clientId = config.clientId;
-        const secretId = config.secretId;
+        const clientId = process.env.CLIENT_ID;
+        const secretId = process.env.SECRET_ID;
         const url = "https://us.battle.net/oauth/token";
 
         const headers = {
