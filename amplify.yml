@@ -6,9 +6,7 @@ frontend:
         - npm ci
     build:
       commands:
-        - npm run build
-        - CLIENT_ID=$CLIENT_ID
-        - SECRET_ID=$SECRET_ID
+        - CLIENT_ID=$CLIENT_ID SECRET_ID=$SECRET_ID npm run build
   artifacts:
     baseDirectory: build
     files:
