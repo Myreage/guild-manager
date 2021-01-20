@@ -8,8 +8,8 @@ export default function Members() {
     const [roster, setRoster] = useState([]);
 
     async function getAccessToken() {        
-        const clientId = process.env.CLIENT_ID;
-        const secretId = process.env.SECRET_ID;
+        const clientId = process.env.REACT_APP_CLIENT_ID;
+        const secretId = process.env.REACT_APP_SECRET_ID;
         const url = "https://us.battle.net/oauth/token";
 
         const headers = {
